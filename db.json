@@ -2,11 +2,23 @@
   "vita49-ecpri-trades": [
     {
       "id": 0,
-      "trade": "Bandwidth",
       "option1": "VITA49",
-      "grade1": "3",
       "option2": "eCPRI",
-      "grade2": "9"
+      "trade1": "Bandwidth",
+      "trade2": "Power",
+      "trade3": "Heat rejection",
+      "trade4": "Processing",
+      "trade5": "Cost",
+      "option1Trade1Grade": "1",
+      "option1Trade2Grade": "2",
+      "option1Trade3Grade": "3",
+      "option1Trade4Grade": "4",
+      "option1Trade5Grade": "5",
+      "option2Trade1Grade": "6",
+      "option2Trade2Grade": "7",
+      "option2Trade3Grade": "8",
+      "option2Trade4Grade": "9",
+      "option2Trade5Grade": "10"
     },
     {
       "id": 1,
@@ -47,6 +59,14 @@
       "grade1": "5",
       "grade2": "10",
       "id": 5
+    },
+    {
+      "option1": "ttt",
+      "option2": "rrr",
+      "trades": "humor",
+      "grade1": "2.5",
+      "grade2": "3.3",
+      "id": 6
     }
   ],
   "example-of-another-array": []

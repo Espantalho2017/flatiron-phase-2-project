@@ -53,11 +53,11 @@ function App() {
 
         {data.map((item, index) => (
           <tr key={index}>
-            <td>{item.trade}</td>
+            <td>{item.trade1}</td>
             <td>{item.option1}</td>
-            <td>{item.grade1}</td>
+            <td>{item.option1Trade1Grade}</td>
             <td>{item.option2}</td>
-            <td>{item.grade2}</td>
+            <td>{item.option2Trade1Grade}</td>
           </tr>
         ) )}
       
