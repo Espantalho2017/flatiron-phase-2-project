@@ -1,45 +1,53 @@
-
 {
-    "vita49-ecpri-trades" : [
-        {
-            "trade" : "Bandwidth" ,
-            "option1" : "VITA49" ,
-            "grade1" : "3" ,
-            "option2" : "eCPRI" ,
-            "grade2" : "9"
-        } ,
-        {
-            "trade" : "Power" ,
-            "option1" : "VITA49" ,
-            "grade1" : "3" ,
-            "option2" : "eCPRI" ,
-            "grade2" : "9"
-        },
-        {
-            "trade" : "Heat Rejection" , 
-            "option1" : "VITA49" ,
-            "grade1" : "3" ,
-            "option2" : "eCPRI" ,
-            "grade2" : "9"
-        },
-        {
-            "trade" : "Processing" ,
-            "option1" : "VITA49" ,
-            "grade1" : "3" ,
-            "option2" : "eCPRI" ,
-            "grade2" : "9"
-        },
-        {
-            "trade" : "Cost",
-            "option1" : "VITA49" ,
-            "grade1" : "3" ,
-            "option2" : "eCPRI" ,
-            "grade2" : "9"
-        }
-    ] ,
-
-    "example-of-another-array" : []
+  "vita49-ecpri-trades": [
+    {
+      "id": 0,
+      "trade": "Bandwidth",
+      "option1": "VITA49",
+      "grade1": "3",
+      "option2": "eCPRI",
+      "grade2": "9"
+    },
+    {
+      "id": 1,
+      "trade": "Power",
+      "option1": "VITA49",
+      "grade1": "3",
+      "option2": "eCPRI",
+      "grade2": "9"
+    },
+    {
+      "id": 2,
+      "trade": "Heat Rejection",
+      "option1": "VITA49",
+      "grade1": "3",
+      "option2": "eCPRI",
+      "grade2": "9"
+    },
+    {
+      "id": 3,
+      "trade": "Processing",
+      "option1": "VITA49",
+      "grade1": "3",
+      "option2": "eCPRI",
+      "grade2": "9"
+    },
+    {
+      "id": 4,
+      "trade": "Cost",
+      "option1": "VITA49",
+      "grade1": "3",
+      "option2": "eCPRI",
+      "grade2": "9"
+    },
+    {
+      "option1": "r",
+      "option2": "f",
+      "trades": "trades",
+      "grade1": "5",
+      "grade2": "10",
+      "id": 5
+    }
+  ],
+  "example-of-another-array": []
 }
-
-
-

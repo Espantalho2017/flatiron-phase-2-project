@@ -3,11 +3,15 @@
 import React, {useState} from "react";
 
 // The Flatiron Data Fetching in REACT helped me with below code
+// I probably need to put trades and grades into arrays versus variables
 
 function TradesForm() {
     const [formData, setFormData] = useState({
         option1: "",
         option2: "",
+        trades: "",
+        grade1: "",
+        grade2: ""
       });
     
       function handleChange(event) {
@@ -19,6 +23,8 @@ function TradesForm() {
 
       function handleSubmit(event) {
         event.preventDefault();
+        console.log("Button Clicked")
+        console.log(formData)
         fetch("http://localhost:3030/vita49-ecpri-trades", {
           method: "POST",
           headers: {
@@ -30,22 +36,47 @@ function TradesForm() {
     
       return (
         <form onSubmit={handleSubmit}>
+            <br />
+            <br />
+            <textarea> User Trade Study Matrix </textarea>
+            <br />
+            <br />
           <input
             type="text"
-            id="username"
-            value={formData.username}
+            id="option1"
+            value={formData.option1}
             onChange={handleChange}
           />
           <input
             type="text"
-            id="password"
-            value={formData.password}
+            id="option2"
+            value={formData.option2}
             onChange={handleChange}
           />
+          <input
+            type="text"
+            id="trades"
+            value={formData.trades}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="grade1"
+            value={formData.grade1}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="grade2"
+            value={formData.grade2}
+            onChange={handleChange}
+          />
+            <br />
+            <br />
+          <button>Click to Input</button>
         </form>
       );
     }
-}
 
 
 export default TradesForm

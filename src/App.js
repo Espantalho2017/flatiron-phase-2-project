@@ -62,6 +62,8 @@ function App() {
         ) )}
       
       </tbody>
+
+      <TradesForm />
     </div>
   );
 
