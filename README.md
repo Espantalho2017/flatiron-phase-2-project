@@ -41,3 +41,16 @@ Not Applicable.
 This project will continue to evolve and improve. At present enough of this project has been completed to show the vision of the creator.
 
 
+I need to run 
+npm start
+and
+npm run server
+when I start up each time anew or after I hit Control-C
+
+I added the below code to my package.json:
+
+I need to run the below 
+npm run server
+
+the code above runs the code below
+    "server": "json-server --watch db.json --port 3030" ,
