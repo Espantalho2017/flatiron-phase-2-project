@@ -26,12 +26,11 @@ function App() {
 
   // figure out how to sum the grades into a Total Grade
   // figure out how to assign option1 and option2 names to a variable
+  
+  console.log(data)
   const grade1Total = 0
   const grade2Total = 0
-  const option1Name = "VITA49"
-  const option2Name = "eCPRI"
-  console.log (option1Name)
-  console.log(grade1Total)
+  
 
   return (
     <div className="App">
@@ -45,10 +44,7 @@ function App() {
         </tr>
 
 {/* I am trying to output the option names and Total Grades within table */}
-        <tr>
-        <p>{option1Name}:{grade1Total}</p>
-        <p>{option2Name}: {grade2Total}</p>
-      </tr> 
+       
 {/* I am trying to output the option names and Total Grades within table */}
 
         {data.map((item, index) => (

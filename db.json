@@ -22,51 +22,23 @@
     },
     {
       "id": 1,
-      "trade": "Power",
-      "option1": "VITA49",
-      "grade1": "3",
-      "option2": "eCPRI",
-      "grade2": "9"
-    },
-    {
-      "id": 2,
-      "trade": "Heat Rejection",
-      "option1": "VITA49",
-      "grade1": "3",
-      "option2": "eCPRI",
-      "grade2": "9"
-    },
-    {
-      "id": 3,
-      "trade": "Processing",
-      "option1": "VITA49",
-      "grade1": "3",
-      "option2": "eCPRI",
-      "grade2": "9"
-    },
-    {
-      "id": 4,
-      "trade": "Cost",
-      "option1": "VITA49",
-      "grade1": "3",
-      "option2": "eCPRI",
-      "grade2": "9"
-    },
-    {
-      "option1": "r",
-      "option2": "f",
-      "trades": "trades",
-      "grade1": "5",
-      "grade2": "10",
-      "id": 5
-    },
-    {
-      "option1": "ttt",
-      "option2": "rrr",
-      "trades": "humor",
-      "grade1": "2.5",
-      "grade2": "3.3",
-      "id": 6
+      "option1": "RoE",
+      "option2": "ecpri-UDP",
+      "trade1": "freq",
+      "trade2": "bandwidth",
+      "trade3": "power",
+      "trade4": "cost",
+      "trade5": "distance",
+      "option1Trade1Grade": "3",
+      "option1Trade2Grade": "4",
+      "option1Trade3Grade": "5",
+      "option1Trade4Grade": "6",
+      "option1Trade5Grade": "7",
+      "option2Trade1Grade": "8",
+      "option2Trade2Grade": "",
+      "option2Trade3Grade": "9",
+      "option2Trade4Grade": "10",
+      "option2Trade5Grade": "11"
     }
   ],
   "example-of-another-array": []

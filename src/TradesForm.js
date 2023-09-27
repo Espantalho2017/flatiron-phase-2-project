@@ -7,11 +7,24 @@ import React, {useState} from "react";
 
 function TradesForm() {
     const [formData, setFormData] = useState({
-        option1: "",
-        option2: "",
-        trades: "",
-        grade1: "",
-        grade2: ""
+      id: 1,
+      option1: "",
+      option2: "",
+      trade1: "",
+      trade2: "",
+      trade3: "",
+      trade4: "",
+      trade5: "",
+      option1Trade1Grade: "",
+      option1Trade2Grade: "",
+      option1Trade3Grade: "",
+      option1Trade4Grade: "",
+      option1Trade5Grade: "",
+      option2Trade1Grade: "",
+      option2Trade2Grade: "",
+      option2Trade3Grade: "",
+      option2Trade4Grade: "",
+      option2Trade5Grade: ""
       });
     
       function handleChange(event) {
@@ -41,6 +54,14 @@ function TradesForm() {
             <textarea> User Trade Study Matrix </textarea>
             <br />
             <br />
+        
+        {/* unknown what to do to advance id input into array in db */}
+        <input
+            type="text"
+            id="id"
+            value={formData.id}
+            onChange={handleChange}
+          />
           <input
             type="text"
             id="option1"
@@ -55,20 +76,93 @@ function TradesForm() {
           />
           <input
             type="text"
-            id="trades"
-            value={formData.trades}
+            id="trade1"
+            value={formData.trade1}
             onChange={handleChange}
           />
           <input
             type="text"
-            id="grade1"
-            value={formData.grade1}
+            id="trade2"
+            value={formData.trade2}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="trade3"
+            value={formData.trade3}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="trade4"
+            value={formData.trade4}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="trade5"
+            value={formData.trade5}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="option1Trade1Grade"
+            value={formData.option1Trade1Grade}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="option1Trade2Grade"
+            value={formData.option1Trade2Grade}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="option1Trade3Grade"
+            value={formData.option1Trade3Grade}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="option1Trade4Grade"
+            value={formData.option1Trade4Grade}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="option1Trade5Grade"
+            value={formData.option1Trade5Grade}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="option2Trade1Grade"
+            value={formData.option2Trade1Grade}
+            onChange={handleChange}
+          />
+          {/* The below is not accepting inputs for unknown reason */}
+          <input
+            type="text"
+            id="option2Trade3Grade"
+            value={formData.option2Trade2Grade}
             onChange={handleChange}
           />
           <input
             type="text"
             id="grade2"
-            value={formData.grade2}
+            value={formData.option2Trade3Grade}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="option2Trade4Grade"
+            value={formData.option2Trade4Grade}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="option2Trade5Grade"
+            value={formData.option2Trade5Grade}
             onChange={handleChange}
           />
             <br />
