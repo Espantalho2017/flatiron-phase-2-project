@@ -46,6 +46,7 @@ npm start
 and
 npm run server
 when I start up each time anew or after I hit Control-C
+You have to hit the + button to create a split terminal or the side-by-side button and then type npm start and npm run server separately into each window to get them started
 
 I added the below code to my package.json:
 
