@@ -1,70 +1,43 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Flatiron-Phase-2-Project
 
-In the project directory, you can run:
+# Trade Study Matrix
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This Flatiron Phase 2 Project creates a trade study matrix application to help the user to perform a trade analysis of 2 options by allowing the user to input information relevant to that user for each of those 2 options and then to subjectively and objectively "trade" which 1 of those 2 option is the best option for that user to choose. There will be 2 input fields of "Trade" and "Grade" within each of the 2 forms collecting trade information for those 2 options. The "Trade" will be subjectively or objectively what the user thinks is important to trade to determine what the best 1 option out of the 2 for that user should be. The "Grade" will initially always be a number from 0 to 10 determined by the user. These "Grades" will be added accross the the "Trades" for these 2 different trade options and the maximum calculated number for the summed "Grade" will be the best 1 option out of the 2 options. These "Trade" and "Grade" features will be in Child Components with App as the Parent Component, so that Trade and Grade can be reused across the 2 options. A database will hold an example trade study scenario to display to the user so the user has a visual example of how to use this trade study matrix aplication to their benefit. This database will also save the trade study that the user created.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+This project was installed in CSS, HTML, and JavaScript using the REACT Framework for JavaScript.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+Trade analysis is used by people everyday to attempt to make rational decisions about which option or path or decision is the best when presented with information about alternative options. Buying a car is a trade analysis of what is the best car (as an option) to purchase. Trade study matrixes are used by engineering professionals to document why one option was selected amongst multiple options. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Support
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can go to the authour of this website, Roscoe Michael Moore III, at his email address of rmoore@peersat.com if you have questions or need support.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Roadmap
 
-### `npm run eject`
+In the future releases of this website, "Weight Percentage" and "Notes" Child Components may be added to present more detail and information to this trade study matrix for the user to view. The formatting and aesthetics of this application will also be improved.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I always appreciate feedback as contributions to improve this site.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Authors and acknowledgment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I thank Matt Eva and David and CJ Hester for helping to fix my software code.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Not Applicable.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Status
 
-### Code Splitting
+This project will continue to evolve and improve. At present enough of this project has been completed to show the vision of the creator.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

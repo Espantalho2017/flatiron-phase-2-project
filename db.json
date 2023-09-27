@@ -1,0 +1,45 @@
+
+{
+    "vita49-ecpri-trades" : [
+        {
+            "trade" : "Bandwidth" ,
+            "option1" : "VITA49" ,
+            "grade1" : "3" ,
+            "option2" : "eCPRI" ,
+            "grade2" : "9"
+        } ,
+        {
+            "trade" : "Power" ,
+            "option1" : "VITA49" ,
+            "grade1" : "3" ,
+            "option2" : "eCPRI" ,
+            "grade2" : "9"
+        },
+        {
+            "trade" : "Heat Rejection" , 
+            "option1" : "VITA49" ,
+            "grade1" : "3" ,
+            "option2" : "eCPRI" ,
+            "grade2" : "9"
+        },
+        {
+            "trade" : "Processing" ,
+            "option1" : "VITA49" ,
+            "grade1" : "3" ,
+            "option2" : "eCPRI" ,
+            "grade2" : "9"
+        },
+        {
+            "trade" : "Cost",
+            "option1" : "VITA49" ,
+            "grade1" : "3" ,
+            "option2" : "eCPRI" ,
+            "grade2" : "9"
+        }
+    ] ,
+
+    "example-of-another-array" : []
+}
+
+
+
