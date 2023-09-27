@@ -27,13 +27,13 @@
 - [] Is Deploying this project on Netlify's server a requirement???
 
 # To Do 10/4
--[] Have trade study matrix POST data to db.json when new trades done
-    -[] Use a controlled form/component to make your POST request.
+-[x] Have trade study matrix POST data to db.json when new trades done
+    -[x] Use a controlled form/component to make your POST request.
     -[] Upon return of json from your POST request, a state update by a setState function is required!
-- Create a TradesForm Component to do the above
+- [x] Create a TradesForm Component to do the above
 - [] Calculate the total aggregate grades to determine trade winner
-    - [] Put grades into an array of grades and trades into array of trades?
-- [] Is Deploying this project on Netlify's server a requirement???
+- [x] Change both App and TradesForm to new db object format with 18 values
+- [x] Ask if Deploying this project on Netlify's server a requirement??? - No
 
 
     
