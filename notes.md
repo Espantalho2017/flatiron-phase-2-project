@@ -20,7 +20,21 @@
 - [x] Fetch example trade data from db.json
 - [x] Place the fetched db.json data into a table
 - [] Later have trade study matrix POST data to db.json when new trades done
+    -[] Use a controlled form/component to make your POST request.
+    -[] Upon return of json from your POST request, a state update by a setState function is required!
 - [] Calculate the total aggregate grades to determine trade winner
+-
+- [] Is Deploying this project on Netlify's server a requirement???
+
+# To Do 10/4
+-[] Have trade study matrix POST data to db.json when new trades done
+    -[] Use a controlled form/component to make your POST request.
+    -[] Upon return of json from your POST request, a state update by a setState function is required!
+- [] Calculate the total aggregate grades to determine trade winner
+    - [] Put grades into an array of grades and trades into array of trades?
+- [] Is Deploying this project on Netlify's server a requirement???
+
+
     
 
 

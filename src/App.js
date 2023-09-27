@@ -3,6 +3,8 @@
 
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import TradesForm from "./TradesForm";
+
 
 function App() {
   

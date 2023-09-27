@@ -1,0 +1,53 @@
+
+import React, {useState} from "react";
+
+// The Flatiron Data Fetching in REACT helped me with below code
+
+function TradesForm() {
+    const [formData, setFormData] = useState({
+        option1: "",
+        option2: "",
+      });
+    
+      function handleChange(event) {
+        setFormData({
+          ...formData,
+          [event.target.id]: event.target.value,
+        });
+      }
+
+      function handleSubmit(event) {
+        event.preventDefault();
+        fetch("http://localhost:3030/vita49-ecpri-trades", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        });
+      }
+    
+      return (
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            id="username"
+            value={formData.username}
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            id="password"
+            value={formData.password}
+            onChange={handleChange}
+          />
+        </form>
+      );
+    }
+}
+
+
+
+
+
+export default TradesForm
