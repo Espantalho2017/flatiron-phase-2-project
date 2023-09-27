@@ -30,6 +30,7 @@
 -[] Have trade study matrix POST data to db.json when new trades done
     -[] Use a controlled form/component to make your POST request.
     -[] Upon return of json from your POST request, a state update by a setState function is required!
+- Create a TradesForm Component to do the above
 - [] Calculate the total aggregate grades to determine trade winner
     - [] Put grades into an array of grades and trades into array of trades?
 - [] Is Deploying this project on Netlify's server a requirement???

@@ -1,4 +1,5 @@
 
+
 import React, {useState} from "react";
 
 // The Flatiron Data Fetching in REACT helped me with below code
@@ -47,7 +48,6 @@ function TradesForm() {
 }
 
 
-
-
-
 export default TradesForm
+
+
