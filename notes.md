@@ -17,6 +17,10 @@
 - [x]  Added the following code to package.json
     - [x] "server": "json-server --watch db.json --port 3030" ,
     - This code runs  my port 3030 server so I can type "npm run server"
+- [x] Fetch example trade data from db.json
+- [x] Place the fetched db.json data into a table
+- [] Later have trade study matrix POST data to db.json when new trades done
+- [] Calculate the total aggregate grades to determine trade winner
     
 
 
