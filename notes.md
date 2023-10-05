@@ -44,7 +44,8 @@
 - [] Display the db.json objects into trade matrix table
 - [] Have input form be left justified inside TradesForm with input labels
 - [] Upon return of json from your POST request, a state update by a setState function is required!
-- [] Add React Router feature
+- [] Add React Router feature(s)
+    - [] Example page & separate page for each option1-option2 trade??
 
 
 
