@@ -23,12 +23,12 @@
     {
       "id": 1,
       "option1": "RoE",
-      "option2": "vita57",
-      "trade1": "cat",
-      "trade2": "dog",
+      "option2": "RoIP",
+      "trade1": "cats",
+      "trade2": "dogs",
       "trade3": "mice",
-      "trade4": "snake",
-      "trade5": "cobra",
+      "trade4": "snales",
+      "trade5": "birds",
       "option1Trade1Grade": "1",
       "option1Trade2Grade": "2",
       "option1Trade3Grade": "3",
@@ -37,9 +37,9 @@
       "option2Trade1Grade": "6",
       "option2Trade2Grade": "",
       "option2Trade3Grade": "7",
-      "option2Trade4Grade": "8",
-      "option2Trade5Grade": "9",
-      "grade2": ""
+      "option2Trade4Grade": "9",
+      "option2Trade5Grade": "10",
+      "grade2": "78"
     }
   ],
   "example-of-another-array": []

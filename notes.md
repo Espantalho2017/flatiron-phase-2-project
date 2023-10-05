@@ -37,7 +37,7 @@
 
 # To Do 10/5
 - [] Fix errors described below
-    - [] When npm start on host/3000 server there is a Fetch runtime error that goes away after a page refresh of the host/3000 web page
+    - [] When npm start on host/3000 there is a Failed to Fetch "Uncaught runtime errors" that goes away after refresh of host/3000 page
     - [] Unknown issue is not allowing input to only the "option2Trade2Grade" input field in TradesForm and db.json
     - [] How to advance the "id" key field for each succeeding matrix update
 - [] Calculate the total aggregate grades to determine trade winner
