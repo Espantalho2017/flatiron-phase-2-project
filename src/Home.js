@@ -1,9 +1,14 @@
 
 import React from "react";
+import TradesForm from "./TradesForm"
+
 
 function Home() {
-    return <h1>Home Page</h1>;
-
+    return (
+    <div>
+      <TradesForm />
+    </div>
+    )
 }
 
 export default Home

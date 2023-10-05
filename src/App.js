@@ -30,9 +30,6 @@ function App() {
         </Route>
       </Switch>
 
-      <DisplayTrade />
-      <TradesForm />
-        
     </div>
   );
 }

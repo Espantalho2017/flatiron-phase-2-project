@@ -1,9 +1,11 @@
 
 import React from "react";
+import DisplayTrade from "./DisplayTrade"
 
 function ExampleTrade() {
-    return <h1> Example Trade </h1>;
-
+    return (
+    <DisplayTrade />
+    )
 }
 
 export default ExampleTrade 
