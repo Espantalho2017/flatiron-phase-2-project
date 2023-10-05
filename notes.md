@@ -35,6 +35,18 @@
 - [x] Change both App and TradesForm to new db object format with 18 values
 - [x] Ask if Deploying this project on Netlify's server a requirement??? - No
 
+# To Do 10/5
+- [] Fix errors described below
+    - [] When npm start on host/3000 server there is a Fetch runtime error that goes away after a page refresh of the host/3000 web page
+    - [] Unknown issue is not allowing input to only the "option2Trade2Grade" input field in TradesForm and db.json
+    - [] How to advance the "id" key field for each succeeding matrix update
+- [] Calculate the total aggregate grades to determine trade winner
+- [] Display the db.json objects into trade matrix table
+- [] Have input form be left justified inside TradesForm with input labels
+- [] Upon return of json from your POST request, a state update by a setState function is required!
+- [] Add React Router feature
+
+
 
     
 
