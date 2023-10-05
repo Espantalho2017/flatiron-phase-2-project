@@ -26,7 +26,6 @@ function DisplayTrade() {
 
   const grade1Total = 0
   const grade2Total = 0
-  
 
   return (
     <div className="App">
@@ -44,6 +43,8 @@ function DisplayTrade() {
 
        
 {/* I am trying to output the option names and Total Grades within table */}
+
+
 
         {data.map((item, index) => (
           <tr key={index}>
