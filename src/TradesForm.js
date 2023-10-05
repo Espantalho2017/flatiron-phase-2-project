@@ -5,15 +5,8 @@ import React, {useState} from "react";
 // The Flatiron Data Fetching in REACT helped me with below code
 // I probably need to put trades and grades into arrays versus variables
 
-function TradesForm() {
+function TradesForm({handleSubmit}) {
     
-    // change state of newTrade below to re-render
-    // const [newTrade, setNewTrade] = useState([])
-
-// Updating state after each update of form data with new trades.
-    // function addNewTrade(newTrade){
-    //   setNewTrade([...formData, newTrade]) 
-
     const [formData, setFormData] = useState({
       option1: "",
       option2: "",
@@ -41,29 +34,27 @@ function TradesForm() {
         });
       }
 
-      function handleSubmit(event) {
-        event.preventDefault();
-        console.log("Button Clicked")
-        console.log(formData)
-        fetch("http://localhost:3030/vita49-ecpri-trades", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        });
-      }
+      // function handleSubmit(event) {
+      //   event.preventDefault();
+      //   console.log("Button Clicked")
+      //   console.log(formData)
+      //   fetch("http://localhost:3030/vita49-ecpri-trades", {
+      //     method: "POST",
+      //     headers: {
+      //       "Content-Type": "application/json",
+      //     },
+      //     body: JSON.stringify(formData),
+      //   });
+      // }
     
       return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit= {(event) => handleSubmit(event, formData)}>
             <br />
             <br />
-            <textarea> User Trade Study Matrix Input </textarea>
+            <h1> User Trade Study Matrix Input </h1>
             <br />
             <br />
         
-        {/* unknown what to do to advance id input into array in db */}
-
         <label> Option1 : 
           <input
             type="text"

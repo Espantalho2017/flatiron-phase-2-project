@@ -34,12 +34,13 @@ console.log(data)
         
         <h1> Trade Study Matrix Output </h1>
 
-      <tbody>
-       
+        <tbody>
+
 {/* I am trying to output the option names and Total Grades within table */}
 
         {data.map((item, index) => (
             <table>
+
         <tr>
           <th> Trade </th>
           <th> Option#1 </th>
@@ -98,6 +99,7 @@ console.log(data)
             <td>{""}</td>
             <td>{item.option2Trade5Grade}</td>
           </tr>
+
 
           </table>
         ) )}
