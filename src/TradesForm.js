@@ -8,7 +8,11 @@ import React, {useState} from "react";
 function TradesForm() {
     
     // change state of newTrade below to re-render
-    const [newTrade, setNewTrade] = useState([])
+    // const [newTrade, setNewTrade] = useState([])
+
+// Updating state after each update of form data with new trades.
+    // function addNewTrade(newTrade){
+    //   setNewTrade([...formData, newTrade]) 
 
     const [formData, setFormData] = useState({
       option1: "",
@@ -224,5 +228,4 @@ function TradesForm() {
 // I want the Display of trade data to appear above it
 
 export default TradesForm
-
 
