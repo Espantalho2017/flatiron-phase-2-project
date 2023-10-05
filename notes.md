@@ -38,7 +38,7 @@
     - [x] When npm start on host/3000 there is a Failed to Fetch "Uncaught runtime errors" that goes away after refresh of host/3000 page - error is due to me NOT starting the npm run server on host/3030 before I start npm start on host/3000 - failed to Fetch is good sign that you did not start your JSON server
     - [x] Unknown issue is not allowing input to only the "option2Trade2Grade" input field in TradesForm and db.json
         -[x] Error was "id" of that input field incorrectly set to "grade2"
-    - [] How to advance the "id" key field for each succeeding matrix update
+    - [x] How to advance the "id" key field for each succeeding matrix update - the "id" is automatically added with its index value to the JSON file when making a POST request using Fetch
 -[x] Created new DisplayTrade Component to remove display of trades from App
 - [] Calculate the total aggregate grades to determine trade winner
 - [] Display the db.json objects into trade matrix table

@@ -6,6 +6,10 @@ import React, {useState} from "react";
 // I probably need to put trades and grades into arrays versus variables
 
 function TradesForm() {
+    
+    // change state of newTrade below to re-render
+    const [newTrade, setNewTrade] = useState([])
+
     const [formData, setFormData] = useState({
       option1: "",
       option2: "",
@@ -216,6 +220,8 @@ function TradesForm() {
       );
     }
 
+// After button is hit to Input data into form, 
+// I want the Display of trade data to appear above it
 
 export default TradesForm
 

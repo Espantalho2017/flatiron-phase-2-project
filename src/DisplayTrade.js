@@ -30,9 +30,18 @@ function DisplayTrade() {
   return (
     <div className="App">
         
-        <textarea> Trade Study Matrix Output </textarea>
+        <h1> Trade Study Matrix Output </h1>
 
       <tbody>
+        
+
+       
+{/* I am trying to output the option names and Total Grades within table */}
+
+
+
+        {data.map((item, index) => (
+            <table>
         <tr>
           <th> Trade </th>
           <th> Option#1 </th>
@@ -41,12 +50,6 @@ function DisplayTrade() {
           <th> Grade#2 </th>
         </tr>
 
-       
-{/* I am trying to output the option names and Total Grades within table */}
-
-
-
-        {data.map((item, index) => (
           <tr key={index}>
             {/* I want this to be a separate row */}
             <td>{""}</td>
@@ -54,13 +57,18 @@ function DisplayTrade() {
             <td>{""}</td>
             <td>{item.option2}</td>
             <td>{""}</td>
+            </ tr>
 
+        <tr>
             {/* I want this to be a separate row */}
             <td>{item.trade1}</td>
             <td>{""}</td>
             <td>{item.option1Trade1Grade}</td>
             <td>{""}</td>
             <td>{item.option2Trade1Grade}</td>
+        </ tr>
+
+        <tr>
 
             {/* I want this to be a separate row */}
             <td>{item.trade2}</td>
@@ -68,6 +76,9 @@ function DisplayTrade() {
             <td>{item.option1Trade2Grade}</td>
             <td>{""}</td>
             <td>{item.option2Trade2Grade}</td>
+            </ tr>
+
+            <tr>
 
             {/* I want this to be a separate row */}
             <td>{item.trade3}</td>
@@ -75,6 +86,9 @@ function DisplayTrade() {
             <td>{item.option1Trade3Grade}</td>
             <td>{""}</td>
             <td>{item.option2Trade3Grade}</td>
+            </ tr>
+
+            <tr>
 
             {/* I want this to be a separate row */}
             <td>{item.trade4}</td>
@@ -82,16 +96,18 @@ function DisplayTrade() {
             <td>{item.option1Trade4Grade}</td>
             <td>{""}</td>
             <td>{item.option2Trade4Grade}</td>
+            </ tr>
 
+            <tr>
             {/* I want this to be a separate row */}
             <td>{item.trade5}</td>
             <td>{""}</td>
             <td>{item.option1Trade5Grade}</td>
             <td>{""}</td>
             <td>{item.option2Trade5Grade}</td>
-
           </tr>
-          
+
+          </table>
         ) )}
       
       </tbody>
