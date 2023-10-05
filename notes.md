@@ -39,7 +39,7 @@
     - [x] Unknown issue is not allowing input to only the "option2Trade2Grade" input field in TradesForm and db.json
         -[x] Error was "id" of that input field incorrectly set to "grade2"
     - [] How to advance the "id" key field for each succeeding matrix update
--[x] Created new DisplayTrade Component to remove displaying trades from App
+-[x] Created new DisplayTrade Component to remove display of trades from App
 - [] Calculate the total aggregate grades to determine trade winner
 - [] Display the db.json objects into trade matrix table
 - [] Have input form be left justified inside TradesForm with input labels

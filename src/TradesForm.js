@@ -51,7 +51,7 @@ function TradesForm() {
         <form onSubmit={handleSubmit}>
             <br />
             <br />
-            <textarea> User Trade Study Matrix </textarea>
+            <textarea> User Trade Study Matrix Input </textarea>
             <br />
             <br />
         
