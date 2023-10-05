@@ -7,7 +7,6 @@ import React, {useState} from "react";
 
 function TradesForm() {
     const [formData, setFormData] = useState({
-      id: 1,
       option1: "",
       option2: "",
       trade1: "",
@@ -56,15 +55,6 @@ function TradesForm() {
             <br />
         
         {/* unknown what to do to advance id input into array in db */}
-
-        <label> ID : 
-        <input
-            type="text"
-            id="id"
-            value={formData.id}
-            onChange={handleChange}
-          />
-        </label>
 
         <label> Option1 : 
           <input
