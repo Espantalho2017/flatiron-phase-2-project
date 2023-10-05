@@ -140,16 +140,15 @@ function TradesForm() {
             value={formData.option2Trade1Grade}
             onChange={handleChange}
           />
-          {/* The below is not accepting inputs for unknown reason */}
           <input
             type="text"
-            id="option2Trade3Grade"
+            id="option2Trade2Grade"
             value={formData.option2Trade2Grade}
             onChange={handleChange}
           />
           <input
             type="text"
-            id="grade2"
+            id="option2Trade3Grade"
             value={formData.option2Trade3Grade}
             onChange={handleChange}
           />

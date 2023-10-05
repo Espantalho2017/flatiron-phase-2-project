@@ -29,17 +29,17 @@
 # To Do 10/4
 -[x] Have trade study matrix POST data to db.json when new trades done
     -[x] Use a controlled form/component to make your POST request.
-    -[] Upon return of json from your POST request, a state update by a setState function is required!
 - [x] Create a TradesForm Component to do the above
-- [] Calculate the total aggregate grades to determine trade winner
 - [x] Change both App and TradesForm to new db object format with 18 values
 - [x] Ask if Deploying this project on Netlify's server a requirement??? - No
 
 # To Do 10/5
 - [] Fix errors described below
     - [] When npm start on host/3000 there is a Failed to Fetch "Uncaught runtime errors" that goes away after refresh of host/3000 page
-    - [] Unknown issue is not allowing input to only the "option2Trade2Grade" input field in TradesForm and db.json
+    - [x] Unknown issue is not allowing input to only the "option2Trade2Grade" input field in TradesForm and db.json
+        -[x] Error was "id" of that input field incorrectly set to "grade2"
     - [] How to advance the "id" key field for each succeeding matrix update
+-[x] Created new DisplayTrade Component to remove displaying trades from App
 - [] Calculate the total aggregate grades to determine trade winner
 - [] Display the db.json objects into trade matrix table
 - [] Have input form be left justified inside TradesForm with input labels

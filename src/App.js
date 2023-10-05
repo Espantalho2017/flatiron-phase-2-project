@@ -1,5 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
 
 import React, { useState, useEffect } from "react";
 import "./App.css";
@@ -20,6 +18,9 @@ function App() {
 
 export default App;
 
+
+// import logo from './logo.svg';
+// import './App.css';
 
 // function App() {
 //   return (

@@ -18,10 +18,7 @@ function DisplayTrade() {
   }, []);
   // use an empty dependencies array, so we only run the fetch request ONCE
 
-  // return <div>{data.map((data) => data.trade)}</div>;
-
   // figure out how to sum the grades into a Total Grade
-  // figure out how to assign option1 and option2 names to a variable
   
   console.log(data)
   const grade1Total = 0
@@ -38,8 +35,6 @@ function DisplayTrade() {
           <th> Option#2 </th>
           <th> Grade#2 </th>
         </tr>
-
-{/* I am trying to output the option names and Total Grades within table */}
        
 {/* I am trying to output the option names and Total Grades within table */}
 
