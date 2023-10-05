@@ -49,7 +49,7 @@
     - [] Example page & separate page for each option1-option2 trade??
 
 
-
+Always run for 1 first time (only)  " npm install react-router-dom@5 " to install React Router into your package.json dependencies but if it is already listed within your package.json dependencies, then you can just run " npm install "
     
 
 

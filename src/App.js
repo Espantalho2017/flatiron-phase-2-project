@@ -1,9 +1,15 @@
 
 import React, { useState, useEffect } from "react";
+import { Route, Switch } from "react-router-dom";
+
+
 import "./App.css";
 import TradesForm from "./TradesForm";
 import DisplayTrade from "./DisplayTrade";
-import NavBar from ">./NavBar"; 
+import NavBar from "./NavBar"; 
+import Home from "./Home";
+import ExampleTrade from "./ExampleTrade"
+import Instructions from "./Instructions"
 
 
 function App() {
@@ -11,9 +17,22 @@ function App() {
   return (
     <div className="App">
 
+      <NavBar />
+      <Switch>
+        <Route exact path="/Instructions">
+          <Instructions />
+        </Route>
+        <Route exact path="/ExampleTrade">
+          <ExampleTrade />
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+      </Switch>
+
       <DisplayTrade />
       <TradesForm />
-      <NavBar />
+        
     </div>
   );
 }
