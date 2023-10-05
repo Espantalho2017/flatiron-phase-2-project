@@ -9,7 +9,7 @@ function Home() {
         const [data, setData] = useState([]);
         const [isLoaded, setIsLoaded] = useState(false);
       
-        // console.log(data)
+        // Project is done!!!
       
         useEffect(() => {
           fetch("http://localhost:3030/vita49-ecpri-trades")
