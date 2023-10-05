@@ -45,6 +45,7 @@
 - [] Have input form be left justified inside TradesForm with input labels
 - [] Upon return of json from your POST request, a state update by a setState function is required!
 - [] Add React Router feature(s)
+    - [x] Create a NavBar Component
     - [] Example page & separate page for each option1-option2 trade??
 
 

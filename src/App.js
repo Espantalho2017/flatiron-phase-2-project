@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import TradesForm from "./TradesForm";
 import DisplayTrade from "./DisplayTrade";
+import NavBar from ">./NavBar"; 
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 
       <DisplayTrade />
       <TradesForm />
+      <NavBar />
     </div>
   );
 }
