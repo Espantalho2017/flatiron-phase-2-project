@@ -59,6 +59,7 @@
 
 - [x] Upload Phase 2 Project Video
 - [x] Update Phase 2 Project Blog on Medium
+- [x] Improved Instructions page
 
 
 
