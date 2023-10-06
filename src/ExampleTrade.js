@@ -1,10 +1,10 @@
 
 import React from "react";
 
-// Changing code in ExampleTrade Component so it doesn't Fecth to Server
 function ExampleTrade() {
    
-   // Example data that is 1st object in db.json is copied here
+   // Example data that is 1st object in db.json is copied here,
+   // so we do not have to waste a Fecth to server in this component
 
    const data = 
     [
@@ -17,28 +17,26 @@ function ExampleTrade() {
       "trade3": "Heat rejection",
       "trade4": "Processing",
       "trade5": "Cost",
-      "option1Trade1Grade": "1",
-      "option1Trade2Grade": "2",
-      "option1Trade3Grade": "3",
-      "option1Trade4Grade": "4",
-      "option1Trade5Grade": "5",
-      "option2Trade1Grade": "6",
-      "option2Trade2Grade": "7",
-      "option2Trade3Grade": "8",
-      "option2Trade4Grade": "9",
-      "option2Trade5Grade": "10"
+      "option1Trade1Grade": 1,
+      "option1Trade2Grade": 2,
+      "option1Trade3Grade": 3,
+      "option1Trade4Grade": 4,
+      "option1Trade5Grade": 5,
+      "option2Trade1Grade": 6,
+      "option2Trade2Grade": 7,
+      "option2Trade3Grade": 8,
+      "option2Trade4Grade": 9,
+      "option2Trade5Grade": 10
      }
     ]
    
     console.log(data)
   return (
-    <div className="App">
+    <div>
         
         <h1> Trade Study Matrix Output </h1>
 
         <tbody>
-
-{/* I am trying to output the option names and Total Grades within table */}
 
         {data.map((item, index) => (
             <table>
@@ -100,8 +98,47 @@ function ExampleTrade() {
             <td>{item.option1Trade5Grade}</td>
             <td>{""}</td>
             <td>{item.option2Trade5Grade}</td>
-          </tr>
+            </tr>
 
+            <tr>
+            <td>{"......"}</td>
+            <td>{""}</td>
+            <td>{"......"}</td>
+            <td>{""}</td>
+            <td>{"......"}</td>
+            </tr>
+
+            <tr>
+            <td>{"TOTAL"}</td>
+            <td>{""}</td>
+            <td>
+                {item.option1Trade1Grade +
+                 item.option1Trade2Grade +
+                 item.option1Trade3Grade +
+                 item.option1Trade4Grade +
+                 item.option1Trade5Grade
+                }
+            </td>
+            <td>{""}</td>
+            <td>
+                {item.option2Trade1Grade +
+                 item.option2Trade2Grade +
+                 item.option2Trade3Grade +
+                 item.option2Trade4Grade +
+                 item.option2Trade5Grade
+                }
+            </td>
+            </tr>
+
+            <tr>
+            <td>
+                {item.option1 > item.option2 ? item.option1 : item.option2 }
+            </td>
+            <td>{"is better "}</td>
+            <td>{"graded "}</td>
+            <td>{"trade "}</td>
+            <td>{"option "}</td>
+            </ tr>
 
           </table>
         ) )}
