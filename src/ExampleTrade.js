@@ -31,6 +31,26 @@ function ExampleTrade() {
     ]
    
     console.log(data)
+
+// Adding up the Trade Grades by option to determine better trade option 
+const totalOption1Grades = data.map((item) => (
+parseFloat(item.option1Trade1Grade, 10) + 
+parseFloat(item.option1Trade2Grade, 10) +
+parseFloat(item.option1Trade3Grade, 10) +
+parseFloat(item.option1Trade4Grade, 10) +
+parseFloat(item.option1Trade5Grade, 10)
+)
+)
+
+const totalOption2Grades = data.map((item) => (
+    parseFloat(item.option2Trade1Grade, 10) + 
+    parseFloat(item.option2Trade2Grade, 10) +
+    parseFloat(item.option2Trade3Grade, 10) +
+    parseFloat(item.option2Trade4Grade, 10) +
+    parseFloat(item.option2Trade5Grade, 10)
+    )
+    )
+
   return (
     <div>
         
@@ -39,7 +59,8 @@ function ExampleTrade() {
         <tbody>
 
         {data.map((item, index) => (
-            <table>
+
+        <table>
 
         <tr>
           <th> Trade </th>
@@ -111,28 +132,15 @@ function ExampleTrade() {
             <tr>
             <td>{"TOTAL"}</td>
             <td>{""}</td>
-            <td>
-                {item.option1Trade1Grade +
-                 item.option1Trade2Grade +
-                 item.option1Trade3Grade +
-                 item.option1Trade4Grade +
-                 item.option1Trade5Grade
-                }
-            </td>
+            <td>{totalOption1Grades}</td>
             <td>{""}</td>
-            <td>
-                {item.option2Trade1Grade +
-                 item.option2Trade2Grade +
-                 item.option2Trade3Grade +
-                 item.option2Trade4Grade +
-                 item.option2Trade5Grade
-                }
-            </td>
+            <td>{totalOption2Grades}</td>
             </tr>
 
             <tr>
             <td>
-                {item.option1 > item.option2 ? item.option1 : item.option2 }
+                {totalOption1Grades > totalOption2Grades  
+                ? item.option1 : item.option2 }
             </td>
             <td>{"is better "}</td>
             <td>{"graded "}</td>

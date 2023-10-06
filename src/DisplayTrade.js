@@ -2,33 +2,29 @@
 import React, { useState, useEffect } from "react";
 
 
-// function DisplayTrade() {
-
-//   const [data, setData] = useState([]);
-//   const [isLoaded, setIsLoaded] = useState(false);
-
-//   console.log(data)
-
-//   useEffect(() => {
-//     fetch("http://localhost:3030/vita49-ecpri-trades")
-//       .then((response) => response.json())
-//       .then((data) => {
-//         console.log(data)
-//         setData(data);
-//       });
-//   }, []);
-//   // use an empty dependencies array, so we only run the fetch request ONCE
-
-//   // figure out how to sum the grades into a Total Grade
-  
-
-//   console.log(data)
-
-//   const grade1Total = 0
-//   const grade2Total = 0
-
 function DisplayTrade({data}) {
 console.log(data)
+
+// Adding up the Trade Grades by option to determine better trade option 
+const totalOption1Grades = data.map((item) => (
+    parseFloat(item.option1Trade1Grade, 10) + 
+    parseFloat(item.option1Trade2Grade, 10) +
+    parseFloat(item.option1Trade3Grade, 10) +
+    parseFloat(item.option1Trade4Grade, 10) +
+    parseFloat(item.option1Trade5Grade, 10)
+    )
+    )
+    console.log(totalOption1Grades)
+
+    const totalOption2Grades = data.map((item) => (
+        parseFloat(item.option2Trade1Grade, 10) + 
+        parseFloat(item.option2Trade2Grade, 10) +
+        parseFloat(item.option2Trade3Grade, 10) +
+        parseFloat(item.option2Trade4Grade, 10) +
+        parseFloat(item.option2Trade5Grade, 10)
+        )
+        )
+
   return (
     <div className="App">
         
@@ -100,6 +96,33 @@ console.log(data)
             <td>{item.option2Trade5Grade}</td>
           </tr>
 
+            <tr>
+            <td>{"......"}</td>
+            <td>{""}</td>
+            <td>{"......"}</td>
+            <td>{""}</td>
+            <td>{"......"}</td>
+            </tr>
+            {/* replaced totalOption1Grades below */}
+            <tr>
+            <td>{"TOTAL"}</td>
+            <td>{""}</td>
+            <td>{item.option1Trade1Grade}</td>
+            <td>{""}</td>
+            <td>{item.option2Trade1Grade}</td>
+            </tr>
+
+            <tr>
+                {/* replaced totalOption1Grades below */}
+            <td>
+                {item.option1Trade1Grade > item.option2Trade1Grade  
+                ? item.option1 : item.option2 }
+            </td>
+            <td>{"is better "}</td>
+            <td>{"graded "}</td>
+            <td>{"trade "}</td>
+            <td>{"option "}</td>
+            </ tr>
 
           </table>
         ) )}
@@ -111,19 +134,5 @@ console.log(data)
 }
 
 export default DisplayTrade;
-
-
-  // function handleClick() {
-  //   fetch("http://localhost:3030/vita49-ecpri-trades")
-  //     .then((res) => res.json())
-  //     .then((json) => setData(json));
-  // }
-  
-  // return <button onClick={handleClick}>Click to get Example Matrix!</button>;
-  
-  // return (
-  //   <div className="App">
-  //   </div>
-  // );
 
 
