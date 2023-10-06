@@ -19,12 +19,7 @@
     - This code runs  my port 3030 server so I can type "npm run server"
 - [x] Fetch example trade data from db.json
 - [x] Place the fetched db.json data into a table
-- [] Later have trade study matrix POST data to db.json when new trades done
-    -[] Use a controlled form/component to make your POST request.
-    -[] Upon return of json from your POST request, a state update by a setState function is required!
-- [] Calculate the total aggregate grades to determine trade winner
--
-- [] Is Deploying this project on Netlify's server a requirement???
+- [x] Ask if Deploying this project on Netlify's server a requirement? - No
 
 # To Do 10/4
 -[x] Have trade study matrix POST data to db.json when new trades done
@@ -34,7 +29,7 @@
 - [x] Ask if Deploying this project on Netlify's server a requirement??? - No
 
 # To Do 10/5
-- [] Fix errors described below
+- [x] Fix errors described below
     - [x] When npm start on host/3000 there is a Failed to Fetch "Uncaught runtime errors" that goes away after refresh of host/3000 page - error is due to me NOT starting the npm run server on host/3030 before I start npm start on host/3000 - failed to Fetch is good sign that you did not start your JSON server
     - [x] Unknown issue is not allowing input to only the "option2Trade2Grade" input field in TradesForm and db.json
         -[x] Error was "id" of that input field incorrectly set to "grade2"
@@ -42,8 +37,6 @@
 -[x] Created new DisplayTrade Component to remove display of trades from App
 - [] Calculate the total aggregate grades to determine trade winner
 - [x] Display the db.json objects into trade matrix table
-- [] Have input form be left justified inside TradesForm with input labels
-- [] Upon return of json from your POST request, a state update by a setState function is required!
 - [x] Add React Router feature(s)
     - [x] Create a NavBar Component
     - [x] Example page & separate Home page for each option1-option2 trade
@@ -56,13 +49,18 @@
 - [x] Removed Fetch requests from Child components and put into Parent/Home
 - [x] Removed Fetch GET from ExampleTrade to eliminate unneeded server call
 
-
 # To Do 10/7
 
 - [x] Fix error in Example Trade caused by taking Fetch out of DisplayTrade
     - [x] Hard coded in Array of 1 Object of example data for ExampleTrade
-- [] Upload Phase 2 Project Video
-- [] Update Phase 2 Project Blog on Medium
+- [x] Calculate the total aggregate grades to determine trade winner
+
+# To Do 10/8
+
+- [x] Upload Phase 2 Project Video
+- [x] Update Phase 2 Project Blog on Medium
+
+
 
 
 
