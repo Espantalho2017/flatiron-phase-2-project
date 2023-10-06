@@ -57,7 +57,7 @@
 
 # To Do 10/8
 
-- [x] Upload Phase 2 Project Video
+- [] Upload Phase 2 Project Video
 - [x] Update Phase 2 Project Blog on Medium
 
 
