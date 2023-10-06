@@ -41,16 +41,28 @@
     - [x] How to advance the "id" key field for each succeeding matrix update - the "id" is automatically added with its index value to the JSON file when making a POST request using Fetch
 -[x] Created new DisplayTrade Component to remove display of trades from App
 - [] Calculate the total aggregate grades to determine trade winner
-- [] Display the db.json objects into trade matrix table
+- [x] Display the db.json objects into trade matrix table
 - [] Have input form be left justified inside TradesForm with input labels
 - [] Upon return of json from your POST request, a state update by a setState function is required!
-- [] Add React Router feature(s)
+- [x] Add React Router feature(s)
     - [x] Create a NavBar Component
-    - [] Example page & separate page for each option1-option2 trade??
-
-
-Always run for 1 first time (only)  " npm install react-router-dom@5 " to install React Router into your package.json dependencies but if it is already listed within your package.json dependencies, then you can just run " npm install "
+    - [x] Example page & separate Home page for each option1-option2 trade
+- [x] Always run for 1 first time (only)  " npm install react-router-dom@5 " to install React Router into your package.json dependencies but if it is already listed within your package.json dependencies, then you can just run " npm install "
     
+# To Do 10/6
+
+- [x] Get State Update to work on the POST request to achieve MVP status
+    - [x] MVP Status is complete and David and CJ say I have working Phase-2 Project for turn-in to graduate
+- [x] Removed Fetch requests from Child components and put into Parent/Home
+- [x] Removed Fetch GET from ExampleTrade to eliminate unneeded server call
+
+
+# To Do 10/7
+
+- [x] Fix error in Example Trade caused by taking Fetch out of DisplayTrade
+    - [x] Hard coded in Array of 1 Object of example data for ExampleTrade
+- [] Upload Phase 2 Project Video
+- [] Update Phase 2 Project Blog on Medium
 
 
 
